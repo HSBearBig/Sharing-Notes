@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/academy">首頁</a></li>
+        <li class="breadcrumb-item"><a href="/academy">學院</a></li>
+        <li class="breadcrumb-item">學系</li>
+    </ol>
+</nav>
+
+<div class="row">
+    {% for name, departments in comDepartmentList_dict.items %}
+        {% for department in departments %}
+        <div class="col-3">
+            <a href="CS/">
+                <div class="department-item">
+                    {% with 'images/computer/'|add:department|add:'.png' as image_static %}
+                    <img src={% static image_static %} alt="none" width="40" height="40" class="department-icon">
+                    <span>{{ department }}</span>
+                    {% endwith %}
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    {% endfor %}
+    <div class="col-3">
+        <a href="computer/computer2.html">
+            <div class="department-item">
+                <img src="{% static 'images/computer/電子工程學系.png' %}" alt="none" width="40" height="40" class="department-icon">
+                <span>電子工程學系</span>
+            </div>
+        </a>
+    </div>
+    <div class="col-3">
+        <a href="computer/computer3.html">
+            <div class="department-item">
+                <img src="{% static 'images/computer/電機工程學系.png' %}" alt="none" width="40" height="40" class="department-icon">
+                <span>電機工程學系</span>
+            </div>
+        </a>
+    </div>
+    <div class="col-3">
+        <a href="computer/computer4.html">
+            <div class="department-item">
+                <img src="{% static 'images/computer/自動控制工程學系.png' %}" alt="none" width="40" height="40" class="department-icon">
+                <span>自動控制工程學系</span>
+            </div>
+        </a>
+    </div>
+    <div class="col-3">
+        <a href="computer/computer5.html">
+            <div class="department-item">
+                <img src="{% static 'images/computer/通訊工程學系.png' %}" alt="none" width="40" height="40" class="department-icon">
+                <span>通訊工程學系</span>
+            </div>
+        </a>
+    </div>
+</div>
+{% endblock %}

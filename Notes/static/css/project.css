@@ -1,0 +1,211 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.content {
+  padding: 6% 0px 0px;
+}
+
+.container-fluid {
+  padding: 20px;
+  background-color: bisque;
+}
+
+.navbar-brand {
+  color: black;
+}
+
+.navbar {
+  padding-top: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.btn {
+  margin: 5px;
+}
+
+.row {
+  padding: 8%;
+}
+
+.row div {
+  text-align: center;
+}
+
+.dropdown:hover .dropdown-menu-end {
+  display: block;
+  right: 0;
+}
+
+.breadcrumb {
+  padding: 1% 3%;
+}
+
+.row {
+  padding: 3% 10%;
+}
+
+.col-3 {
+  margin: 3%;
+}
+
+.department-item {
+  padding: 10% 0px;
+  border: 1px solid #999;
+  border-radius: 25px;
+  color: #000;
+}
+
+.department-item:hover {
+  background-color: #999;
+  color: #fff;
+}
+
+.department-icon {
+  margin: 0px 10px;
+}
+
+.subjects-item {
+  padding: 10% 0px;
+  border: 1px solid #999;
+  border-radius: 25px;
+}
+
+.subjects-item a {
+  padding: 10% 40%;
+  color: #000;
+}
+
+.subjects-item:hover {
+  background-color: #999;
+  color: #fff;
+}
+
+.notes-item a {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer {
+  height: 100px;
+  background-color: bisque;
+}
+
+.copyright {
+  padding-left: 300px;
+  line-height: 100px;
+  display: inline;
+  color: #000;
+}
+
+.footer-menu{
+  line-height: 100px;
+  float: right;
+  margin: 0px;
+  padding-right: 300px;
+}
+
+.footer-menu li{
+  list-style: none;
+  float: left;
+  margin-right: 1em;
+}
+
+.fas, .fab {
+  color: #000;
+}
+
+.topTitle {
+  background-image: url("../images/home-bg.jpg");
+  background-size: 100%;
+  height: 75%;
+}
+
+.mb {
+  padding: 10% 0px;
+  width: 50%;
+  margin: auto;
+  color: bisque;
+}
+
+.form-label {
+  color: #000;
+  background-color: bisque;
+  padding: 1%;
+  border-radius: 5px;
+}
+
+.signup-btn {
+  padding: 1% 3%;
+}
+
+.tag {
+  font-size: small;
+  background-color: darkgray;
+  padding: 5px;
+  color: aquamarine;
+  border-radius: 10px;
+}
+
+.questionContainer {
+  padding-top: 120px;
+}
+
+.questionBox {
+  padding: 20px;
+  width: 70%;
+  margin: auto;
+}
+
+.questionBoxContent {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.questionBoxImg {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.solid {
+  border-top: 3px solid #bbb;
+}
+
+.headImg {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.buttonRight {
+  position: fixed;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+.answerBut {
+  background-color: aliceblue;
+  padding: 15px;
+  border: 0px;
+  border-radius: 3vw;
+}
+
+.discuss-content {
+  background-color: #7C99AC;
+  padding: 0px 0px 5%;
+}

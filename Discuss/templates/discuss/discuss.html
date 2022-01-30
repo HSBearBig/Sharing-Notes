@@ -1,0 +1,456 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="discuss-content">
+
+  <div class="list-group list-group-flush questionContainer">
+    <!-- Qusetion Box1 -->
+    <div class="list-group-item questionBox">
+      <span class="tag">#computer</span>
+      <span class="tag">#coding</span>
+      <span class="tag">#python</span>
+      <div class="list-group list-group-horizontal">
+        <div style="width: 88%; padding-right: 5px; margin-top: 10px">
+          <div data-bs-toggle="modal" style="cursor: pointer" data-bs-target="#questionUI">
+            <h1>Title</h1>
+            <p class="questionBoxContent text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Pariatur recusandae ipsum necessitatibus dolor facere atque,
+              obcaecati adipisci cum minus ea optio officiis, deleniti totam
+              reprehenderit. Ipsa quisquam amet cum perferendis.
+            </p>
+          </div>
+          <div class="list-group list-group-horizontal">
+            <div class="list-group-item border-0">
+              <div class="list-group list-group-horizontal">
+                <button class="list-group-item border-0" type="button">
+                  <img src="{% static 'images/likeWhite.png' %}" alt="like" height="25px" />
+                </button>
+                <span style="padding-left: 0px" class="list-group-item border-0">20</span>
+              </div>
+            </div>
+            <div class="list-group-item border-0">
+              <div class="list-group list-group-horizontal">
+                <button class="list-group-item border-0" type="button">
+                  <img src="{% static 'images/comment.png' %}" alt="comment" height="25px" />
+                </button>
+                <span style="padding-left: 0px" class="list-group-item border-0">20</span>
+              </div>
+            </div>
+            <div class="list-group-item border-0">
+              <div class="list-group list-group-horizontal">
+                <button class="list-group-item border-0" type="button">
+                  <img src="{% static 'images/bookmarkWhite.png' %}" alt="bookmark" height="25px" />
+                </button>
+                <span style="padding-left: 0px" class="list-group-item border-0 text-muted">save</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="questionBoxImg" src="{% static 'images/turtle.jpg' %}" alt="turtle" />
+      </div>
+    </div>
+
+    <!-- Question Box2 -->
+    <div class="list-group-item questionBox">
+      <span class="tag">#computer</span>
+      <span class="tag">#coding</span>
+      <span class="tag">#python</span>
+      <div class="list-group list-group-horizontal">
+        <div style="width: 88%; padding-right: 5px; margin-top: 10px">
+          <div data-bs-toggle="modal" style="cursor: pointer" data-bs-target="#questionUI">
+            <h1>Title</h1>
+            <p class="questionBoxContent text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Pariatur recusandae ipsum necessitatibus dolor facere atque,
+              obcaecati adipisci cum minus ea optio officiis, deleniti totam
+              reprehenderit. Ipsa quisquam amet cum perferendis.
+            </p>
+          </div>
+          <div class="list-group list-group-horizontal">
+            <div class="list-group-item border-0">
+              <div class="list-group list-group-horizontal">
+                <button class="list-group-item border-0" type="button">
+                  <img src="{% static 'images/likeWhite.png' %}" alt="like" height="25px" />
+                </button>
+                <span style="padding-left: 0px" class="list-group-item border-0">20</span>
+              </div>
+            </div>
+            <div class="list-group-item border-0">
+              <div class="list-group list-group-horizontal">
+                <button class="list-group-item border-0" type="button">
+                  <img src="{% static 'images/comment.png' %}" alt="comment" height="25px" />
+                </button>
+                <span style="padding-left: 0px" class="list-group-item border-0">20</span>
+              </div>
+            </div>
+            <div class="list-group-item border-0">
+              <div class="list-group list-group-horizontal">
+                <button class="list-group-item border-0" type="button">
+                  <img src="{% static 'images/bookmarkWhite.png' %}" alt="bookmark" height="25px" />
+                </button>
+                <span style="padding-left: 0px" class="list-group-item border-0 text-muted">save</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="questionBoxImg" src="{% static 'images/turtle.jpg' %}" alt="turtle" />
+      </div>
+    </div>
+
+    <!-- Question Box2 -->
+    <div class="list-group-item questionBox">
+      <span class="tag">#computer</span>
+      <span class="tag">#coding</span>
+      <span class="tag">#python</span>
+      <div class="list-group list-group-horizontal">
+        <div style="width: 88%; padding-right: 5px; margin-top: 10px">
+          <div data-bs-toggle="modal" style="cursor: pointer" data-bs-target="#questionUI">
+            <h1>Title</h1>
+            <p class="questionBoxContent text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Pariatur recusandae ipsum necessitatibus dolor facere atque,
+              obcaecati adipisci cum minus ea optio officiis, deleniti totam
+              reprehenderit. Ipsa quisquam amet cum perferendis.
+            </p>
+          </div>
+          <div class="list-group list-group-horizontal">
+            <div class="list-group-item border-0">
+              <div class="list-group list-group-horizontal">
+                <button class="list-group-item border-0" type="button">
+                  <img src="{% static 'images/likeWhite.png' %}" alt="like" height="25px" />
+                </button>
+                <span style="padding-left: 0px" class="list-group-item border-0">20</span>
+              </div>
+            </div>
+            <div class="list-group-item border-0">
+              <div class="list-group list-group-horizontal">
+                <button class="list-group-item border-0" type="button">
+                  <img src="{% static 'images/comment.png' %}" alt="comment" height="25px" />
+                </button>
+                <span style="padding-left: 0px" class="list-group-item border-0">20</span>
+              </div>
+            </div>
+            <div class="list-group-item border-0">
+              <div class="list-group list-group-horizontal">
+                <button class="list-group-item border-0" type="button">
+                  <img src="{% static 'images/bookmarkWhite.png' %}" alt="bookmark" height="25px" />
+                </button>
+                <span style="padding-left: 0px" class="list-group-item border-0 text-muted">save</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="questionBoxImg" src="{% static 'images/turtle.jpg' %}" alt="turtle" />
+      </div>
+    </div>
+
+    <!-- Question Box3 -->
+    <div class="list-group-item questionBox">
+      <span class="tag">#computer</span>
+      <span class="tag">#coding</span>
+      <span class="tag">#python</span>
+      <div class="list-group list-group-horizontal">
+        <div style="width: 88%; padding-right: 5px; margin-top: 10px">
+          <div data-bs-toggle="modal" style="cursor: pointer" data-bs-target="#questionUI">
+            <h1>Title</h1>
+            <p class="questionBoxContent text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Pariatur recusandae ipsum necessitatibus dolor facere atque,
+              obcaecati adipisci cum minus ea optio officiis, deleniti totam
+              reprehenderit. Ipsa quisquam amet cum perferendis.
+            </p>
+          </div>
+          <div class="list-group list-group-horizontal">
+            <div class="list-group-item border-0">
+              <div class="list-group list-group-horizontal">
+                <button class="list-group-item border-0" type="button">
+                  <img src="{% static 'images/likeWhite.png' %}" alt="like" height="25px" />
+                </button>
+                <span style="padding-left: 0px" class="list-group-item border-0">20</span>
+              </div>
+            </div>
+            <div class="list-group-item border-0">
+              <div class="list-group list-group-horizontal">
+                <button class="list-group-item border-0" type="button">
+                  <img src="{% static 'images/comment.png' %}" alt="comment" height="25px" />
+                </button>
+                <span style="padding-left: 0px" class="list-group-item border-0">20</span>
+              </div>
+            </div>
+            <div class="list-group-item border-0">
+              <div class="list-group list-group-horizontal">
+                <button class="list-group-item border-0" type="button">
+                  <img src="{% static 'images/bookmarkWhite.png' %}" alt="bookmark" height="25px" />
+                </button>
+                <span style="padding-left: 0px" class="list-group-item border-0 text-muted">save</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="questionBoxImg" src="{% static 'images/turtle.jpg' %}" alt="turtle" />
+      </div>
+    </div>
+
+    <!-- Question Box4 -->
+    <div class="list-group-item questionBox">
+      <span class="tag">#computer</span>
+      <span class="tag">#coding</span>
+      <span class="tag">#python</span>
+      <div class="list-group list-group-horizontal">
+        <div style="width: 88%; padding-right: 5px; margin-top: 10px">
+          <div data-bs-toggle="modal" style="cursor: pointer" data-bs-target="#questionUI">
+            <h1>Title</h1>
+            <p class="questionBoxContent text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Pariatur recusandae ipsum necessitatibus dolor facere atque,
+              obcaecati adipisci cum minus ea optio officiis, deleniti totam
+              reprehenderit. Ipsa quisquam amet cum perferendis.
+            </p>
+          </div>
+          <div class="list-group list-group-horizontal">
+            <div class="list-group-item border-0">
+              <div class="list-group list-group-horizontal">
+                <button class="list-group-item border-0" type="button">
+                  <img src="{% static 'images/likeWhite.png' %}" alt="like" height="25px" />
+                </button>
+                <span style="padding-left: 0px" class="list-group-item border-0">20</span>
+              </div>
+            </div>
+            <div class="list-group-item border-0">
+              <div class="list-group list-group-horizontal">
+                <button class="list-group-item border-0" type="button">
+                  <img src="{% static 'images/comment.png' %}" alt="comment" height="25px" />
+                </button>
+                <span style="padding-left: 0px" class="list-group-item border-0">20</span>
+              </div>
+            </div>
+            <div class="list-group-item border-0">
+              <div class="list-group list-group-horizontal">
+                <button class="list-group-item border-0" type="button">
+                  <img src="{% static 'images/bookmarkWhite.png' %}" alt="bookmark" height="25px" />
+                </button>
+                <span style="padding-left: 0px" class="list-group-item border-0 text-muted">save</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="questionBoxImg" src="{% static 'images/turtle.jpg' %}" alt="turtle" />
+      </div>
+    </div>
+
+    <!-- Answer Button -->
+    <div class="buttonRight">
+      <button type="button" class="answerBut">
+        <img src="{% static 'images/pencilWhite.png' %}" alt="" width="40" height="40" class="img-fluid"
+          data-bs-toggle="modal" data-bs-target="#exampleModal2" />
+      </button>
+    </div>
+
+    <!--test_jump-->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">發布貼文</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="title" class="col-form-label">標題:</label>
+                <input type="text" class="form-control" id="title" placeholder="離散數學-鴿籠原理">
+              </div>
+              <div class="mb-3">
+                <label for="tag" class="col-form-label">標籤:</label>
+                <input type="text" class="form-control" id="tag" placeholder="離散數學">
+              </div>
+              <div class="mb-3">
+                <label for="text" class="col-form-label">內容:</label>
+                <textarea class="form-control" id="text" placeholder="問題"></textarea>
+              </div>
+
+              <div class="mb-3">
+                <label for="text" class="col-form-label">圖片:</label>
+                <form id="myform" method="" action="" enctype="multipart/form-data">
+                  <input type="file" id="profile_pic" name="profile_pic" accept=".jpg, .jpeg, .png"><br>
+                  <!-- <input type="submit"> -->
+                </form>
+              </div>
+
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">取消</button>
+            <button type="button" class="btn btn-primary">儲存</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" tabindex="-1" aria-hidden="true" id="questionUI">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+          <!-- Modal Head -->
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <!-- Time -->
+            <p class="text-muted">2022-01-02</p>
+            <!-- Paragraph -->
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
+              architecto et natus quae saepe quidem distinctio, aut placeat,
+              cupiditate vero laborum consequatur. Exercitationem natus culpa
+              repellendus non, dignissimos minus fugit. Exercitationem
+              blanditiis nesciunt laudantium beatae quisquam, rem, ipsum, qui
+              explicabo vitae dolor inventore. Vitae esse suscipit similique
+              assumenda enim praesentium, dicta possimus? Nesciunt odit quidem
+              impedit eos qui fugit nulla! Quae atque, sit iure aliquid aut
+              totam perspiciatis nemo repudiandae libero consectetur repellat
+              ullam commodi beatae at nihil ducimus veniam ratione dignissimos,
+              veritatis ipsam. Eos dignissimos reiciendis totam accusamus eum?
+              Necessitatibus sed tempora deserunt consectetur magnam iure magni
+              similique est nemo commodi ex, ad laborum praesentium dolorem
+              harum, dignissimos expedita! Nisi quos, aliquam esse ducimus ab
+              ipsa pariatur corrupti recusandae? Voluptate quae quia eligendi.
+              Magni ipsum praesentium provident. Ipsum numquam dolorum ipsa
+              assumenda aliquam at sunt accusantium perferendis aliquid
+              molestias, beatae pariatur inventore magni optio quidem natus.
+              Dicta, ullam voluptatum?
+            </p>
+            <!-- Image -->
+            <img class="rounded mx-auto d-block" src="{% static 'images/turtle.jpg' %}" alt="turtle" />
+            <!-- Paragraph -->
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
+              architecto et natus quae saepe quidem distinctio, aut placeat,
+              cupiditate vero laborum consequatur. Exercitationem natus culpa
+              repellendus non, dignissimos minus fugit. Exercitationem
+              blanditiis nesciunt laudantium beatae quisquam, rem, ipsum, qui
+              explicabo vitae dolor inventore. Vitae esse suscipit similique
+              assumenda enim praesentium, dicta possimus? Nesciunt odit quidem
+              impedit eos qui fugit nulla! Quae atque, sit iure aliquid aut
+              totam perspiciatis nemo repudiandae libero consectetur repellat
+              ullam commodi beatae at nihil ducimus veniam ratione dignissimos,
+              veritatis ipsam. Eos dignissimos reiciendis totam accusamus eum?
+              Necessitatibus sed tempora deserunt consectetur magnam iure magni
+              similique est nemo commodi ex, ad laborum praesentium dolorem
+              harum, dignissimos expedita! Nisi quos, aliquam esse ducimus ab
+              ipsa pariatur corrupti recusandae? Voluptate quae quia eligendi.
+              Magni ipsum praesentium provident. Ipsum numquam dolorum ipsa
+              assumenda aliquam at sunt accusantium perferendis aliquid
+              molestias, beatae pariatur inventore magni optio quidem natus.
+              Dicta, ullam voluptatum?
+            </p>
+            <!-- Like/Message -->
+            <div class="list-group list-group-horizontal">
+              <div class="list-group-item border-0" style="padding: 0px">
+                <div class="list-group list-group-horizontal">
+                  <button class="list-group-item border-0" type="button">
+                    <img src="{% static 'images/likeWhite.png' %}" alt="like" height="25px" />
+                  </button>
+                  <span style="padding-left: 0px" class="list-group-item border-0">20</span>
+                </div>
+              </div>
+              <div class="list-group-item border-0" style="padding: 0px">
+                <div class="list-group list-group-horizontal">
+                  <button class="list-group-item border-0" type="button">
+                    <img src="{% static 'images/comment.png' %}" alt="comment" height="25px" />
+                  </button>
+                  <span style="padding-left: 0px" class="list-group-item border-0">20</span>
+                </div>
+              </div>
+              <div class="list-group-item border-0" style="padding: 0px">
+                <div class="list-group list-group-horizontal">
+                  <button class="list-group-item border-0" type="button">
+                    <img src="{% static 'images/bookmarkWhite.png' %}" alt="bookmark" height="25px" />
+                  </button>
+                  <span style="padding-left: 0px" class="list-group-item border-0 text-muted">save</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Line -->
+            <hr class="solid" />
+
+            <!-- Comment -->
+            <div class="list-group">
+              <!-- Comment one -->
+              <div class="list-group-item border-0">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <div class="list-group list-group-horizontal float-start">
+                      <img class="headImg" src="{% static 'images/wwdc2020.jpg' %}" alt="headImg">
+                      <span class="list-group-item border-0">lalala</span>
+                    </div>
+
+                    <div class="list-group list-group-horizontal float-end">
+                      <button class="list-group-item border-0" type="button">
+                        <img src="{% static 'images/likeWhite.png' %}" alt="like" height="25px">
+                      </button>
+                      <span style="padding-left: 0px" class="list-group-item border-0">
+                        20
+                      </span>
+                    </div>
+                  </li>
+                  <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae,
+                    doloremque
+                    vel accusantium deserunt totam, necessitatibus quaerat enim reiciendis quas a adipisci unde
+                    obcaecati
+                    asperiores excepturi quos quia? Vitae, distinctio illum!
+                  </li>
+                </ul>
+              </div>
+              <div class="list-group-item border-0">
+                <!-- Comment two -->
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <div class="list-group list-group-horizontal float-start">
+                      <img class="headImg" src="{% static 'images/wwdc2020.jpg' %}" alt="headImg">
+                      <span class="list-group-item border-0">lalala</span>
+                    </div>
+
+                    <div class="list-group list-group-horizontal float-end">
+                      <button class="list-group-item border-0" type="button">
+                        <img src="{% static 'images/likeWhite.png' %}" alt="like" height="25px">
+                      </button>
+                      <span style="padding-left: 0px" class="list-group-item border-0">
+                        20
+                      </span>
+                    </div>
+                  </li>
+                  <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae,
+                    doloremque
+                    vel accusantium deserunt totam, necessitatibus quaerat enim reiciendis quas a adipisci unde
+                    obcaecati
+                    asperiores excepturi quos quia? Vitae, distinctio illum!
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal Footer -->
+          <div class="modal-footer float-start" style="justify-content: flex-start;">
+            <div class="list-group list-group-horizontal" style="width: 100%;">
+              <img src="{% static 'images/CookImg.jpeg' %}" class="headImg" alt="myface">
+              <input type="text" class="form-control" style="margin-left: 10px;" placeholder="Say somethings">
+              <button type="button" class="btn btn-outline-primary">Answer</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}
