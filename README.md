@@ -6,3 +6,4 @@ A project for people to upload their notes and share.
 * Yuki123456788
 * sylviawgx
 * shichiadain
+* Lipolin1130
